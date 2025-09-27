@@ -6,7 +6,7 @@ import fetch from "node-fetch";
   Only one API works at a time.
 */
 
-const SOURCE_API = "https://api.example.com/imei?number="; // ← change this
+const SOURCE_API = "https://allapiinone.vercel.app/api?key=DEMOKEY&type=mobile&term="; // ← change this
 const METHOD = "GET"; // GET or POST
 
 export default async function handler(req, res) {
